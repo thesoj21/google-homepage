@@ -5,3 +5,13 @@ header {
     letter-spacing: normal;
     font-weight: 400;
 }
+
+footer {
+    font-family: Liberation Sans;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: fixed;
+    z-index: 104;
+    width: 100%;
+}

@@ -38,8 +38,22 @@
 
 #image {
     padding-top: 109px;
-    width: 272;
-    height: 
+    text-align: center;
+}
+
+#searchbar {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#gs {
+    text-align: center;
+
+}
+
+#ifl {
+    text-align: center;
+
 }
 
 #footer {

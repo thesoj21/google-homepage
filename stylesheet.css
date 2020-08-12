@@ -56,6 +56,10 @@
 
 }
 
+#main {
+    padding-bottom: 35px;
+}
+
 #footer {
     font-family: Liberation Sans;
     bottom: 0;

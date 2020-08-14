@@ -8,23 +8,38 @@
 
 </div>
 <header id="header">
-    <span id="abt">About</span> 
-    <span id="store">Store</span>
-    <span id="gmail">Gmail</span>
-    <span id="pics">Images</span>
-    <button type="submit">Sign in</button>
+    <div id="lefthead">
+        <ul>
+            <li id="abt">About</li> 
+            <li id="store">Store</li>
+        </ul>
+    </div>
+    <div id="righthead">
+        <ul> 
+            <li id="gmail">Gmail</li>
+            <li id="pics">Images</li>
+            <li id="tinygrid"><a href="https://www.google.com/intl/en/about/products?tab=wh" title="Google Apps" aria-expanded="false" role="button" tabindex="0"></a></li>
+            <button type="submit">Sign in</button>
+        </ul>
+    </div>    
 </header>
-<body>
     <div id="image">
         <img src="https://web.archive.org/web/20191201000239im_/https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google">
     </div>
-<div id="searchbar">
+<div>
     <form>
-        <input type="text" placeholder="Search" results="0"/>
-        <button type="submit">Google Search</button>
-        <button type="submit">I'm Feeling Lucky</button>
+        <input id="searchbar" type="text" placeholder="" results="0"/>
+            <div id="searchbox">
+                <button id="gs" type="submit">Google Search</button>
+                <button id="ifl" type="submit">I'm Feeling Lucky</button></div>
+            </div>
     </form>
+</div>
+<div id="main">
+    <span id="body">
+
+    </span>
 </div>
 <footer>
    <div id="fbar">
@@ -40,4 +55,3 @@
     </div>
    </div> 
 </footer>
-</body>

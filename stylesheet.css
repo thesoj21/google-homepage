@@ -7,6 +7,22 @@
     color: #222;
 }
 
+#lefthead {
+    align-items: center;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    float: left;
+    justify-content: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 220px;
+    position: relative;
+    text-align: left;
+}
+
 #righthead {
     align-items: center;
     color: rgb(34, 34, 34);
@@ -39,7 +55,6 @@
 #store {
     display: inline-block;
     padding-left: 15px;
-    margin-right: 1000px;
     color: #000;
     opacity: 0.75;
 }
@@ -95,6 +110,10 @@
 
 }
 
+#main {
+    text-align:center;
+}
+
 #searchbox {
     color: rgb(34, 34, 34);
     display: block;
@@ -112,27 +131,19 @@
     box-shadow: none;
     border-radius: 24px;
     z-index: 3;
-    height: 44px;
+    height: 20px;
     margin: 0 auto;
-}
-
-#searchbar {
     text-align: center;
     padding-bottom: 20px;
 }
 
 #gs {
     text-align: center;
-
 }
 
 #ifl {
     text-align: center;
-
-}
-
-#main {
-    padding-bottom: 35px;
+    margin-left: 10px;
 }
 
 #footer {

@@ -178,28 +178,40 @@
 }
 
 #fbarright {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
     float: right;
+    justify-content: flex-end;
+    position: relative;
+    text-align: right;
     margin-right: 30px;
     white-space: nowrap;
 }
 
 #advert {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     margin-left: 23px;
 }
 
 #buss {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     margin-left: 46px;
 }
 
 #hsw {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     padding-left: 40px;
     margin-left: 96;
 }
 
 #priv {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     margin-left: 30px;
     float: right;
@@ -207,6 +219,7 @@
 }
 
 #terms {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     padding: -left 27px;
     margin-left: 30px;
@@ -214,6 +227,7 @@
 }
 
 #set {
+    display: inline-block;
     color: rgba(0, 0, 0, .54);
     margin-right: 
 }

@@ -165,6 +165,18 @@
     font-size: 14px;
 }
 
+#fbarleft {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    float: left;
+    justify-content: flex-start;
+    position: relative;
+    text-align: left;
+}
+
 #fbarright {
     float: right;
     margin-right: 30px;

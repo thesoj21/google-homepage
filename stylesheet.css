@@ -1,6 +1,7 @@
-html {
-    position: relative;
-    min-height: 100%;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 
@@ -11,7 +12,7 @@ html {
     letter-spacing: normal;
     font-weight: 400;
     color: #222;
-    height: 4rem;
+    padding: 10px;
 }
 
 #lefthead {
@@ -122,12 +123,11 @@ html {
     background: #fff;
     color: #222;
     font-family: arial, sans-serif;
-    height: 100%;
+    min-height: 100%;
     margin: 0;
     display: block;
     font-size: small;
-    overflow: hidden;
-    margin-bottom: 35px;
+    position: relative;
 }
 
 #viewport {
@@ -139,6 +139,11 @@ html {
     display: block;
     font-size: small;
 
+}
+
+#main-content {
+    padding: 10px;
+    padding-bottom: 35px;
 }
 
 #searchbox {
@@ -178,7 +183,7 @@ html {
     bottom: 0px;
     font-size: 15px;
     height: 35px;
-    position: fixed;
+    position: absolute;
     z-index: 104;
     width: 100%;
     display: block;

@@ -116,7 +116,19 @@ html, body {
     vertical-align: middle;
     white-space: nowrap;
     width: 30px;
+}
 
+#si {
+    line-height: normal;
+    text-align: left;
+    white-space: nowrap;
+    color: #fff;
+    cursor: default;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
 }
 
 #container {

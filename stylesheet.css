@@ -188,7 +188,7 @@ html, body {
 #searchbar:hover {
     box-shadow: 0 0 5px rgb(221, 219, 219);
     border: 1px solid #cac9c9;
-    width: 70%;
+    width: 44%;
     height: 20px;
     border-radius: 20px;
     padding-bottom: 20px;
@@ -198,7 +198,7 @@ html, body {
     outline-width: 0;
     box-shadow: 0 0 5px rgb(221, 219, 219);
     border: 1px solid #cac9c9;
-    width: 70%;
+    width: 44%;
     height: 20px;
     border-radius: 20px;
     padding-bottom: 20px;

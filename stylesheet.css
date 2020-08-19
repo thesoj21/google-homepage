@@ -186,6 +186,15 @@ html, body {
     padding-bottom: 20px;
 }
 
+#searchbar:hover {
+    box-shadow: 0 0 5px rgb(221, 219, 219);
+    border: 1px solid #cac9c9;
+    width: 70%;
+    height: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
 #gs {
     text-align: center;
     background-color: #f2f2f2;

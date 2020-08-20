@@ -5,7 +5,6 @@ html, body {
     text-align: center;
 }
 
-
 #header {
     font-family: arial, sans-serif;
     top: 0px;
@@ -237,12 +236,12 @@ html, body {
     font-family: arial, sans-serif;
     bottom: 0px;
     font-size: 13px;
-    height: 35px;
     position: fixed;
-    z-index: 104;
+    left: 0;
     width: 100%;
     display: block;
-    background-color: #f5f5f5;;
+    background-color: #f5f5f5;
+    text-align: center;
 }
 
 #fbar {
@@ -252,6 +251,10 @@ html, body {
     font-size: 13px;
     margin-left: -27px;
     visibility: visible;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
 }
 
 #fbarleft {
